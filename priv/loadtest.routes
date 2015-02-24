@@ -1,0 +1,1 @@
+{"/index/:a/:b/:c", [{application, loadtest},{controller, "index"}, {action, "index"}]}.
