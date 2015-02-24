@@ -2,6 +2,7 @@
 log
 deps
 *~
+deps
 *.o
 *.beam
 *.plt
@@ -11,4 +12,3 @@ rel/example_project
 .concrete/DEV_MODE
 .rebar
 *.log
-
