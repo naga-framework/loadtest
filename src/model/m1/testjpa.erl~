@@ -1,8 +1,0 @@
--module(testjpa,[Id,Name]).
--table("testjpa").
--export([foo/0]).
-%% hello
-foo() ->
-   " --- foo pas foo @@@@@@@@@@@@@@@@@@@ ----------- <br>".
-
-

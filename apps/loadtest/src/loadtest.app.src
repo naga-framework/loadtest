@@ -1,0 +1,7 @@
+{application, loadtest,
+  [{description, "my awesome loadtest "},
+   {vsn, "0.2"},
+   {registered, []},
+   {applications, [kernel, stdlib, naga]},
+   {mod, { loadtest, []}},
+   {env, []} ]}.

@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Loadtest</title>
+</head>
+<body>
+
+{% if list %}
+  {% for l in list %}
+    -{{ l.val }}<br/>
+  {% endfor %}
+{% else %}
+  Nope
+{% endif %}
+
+</body>
+</html>

@@ -1,6 +1,0 @@
--module(toto_lib).
-
--export([hello/0]).
-
-
-hello() -> "hello !!".
