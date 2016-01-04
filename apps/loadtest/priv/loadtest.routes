@@ -1,0 +1,8 @@
+[
+  { "/favicon.ico",    cowboy_static, {priv_file, loadtest, "static/favicon.ico"}}
+ ,{ "/",      [{application,loadtest},{controller,index},{action,index}], [] }
+ ,{ "/hello", [{application,loadtest},{controller,index},{action,hello}], [] } 
+ ,{ "/nosession",      [{application,loadtest},{controller,session},{action,index}], [] }
+ ,{ "/nosession/hello", [{application,loadtest},{controller,session},{action,hello}], [] } 
+
+ ].
