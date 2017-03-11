@@ -1,3 +1,4 @@
+```bash
 using client/server on same computer, 
 AMD E1-2100 APU with Radeon(TM) HD Graphics
 FREQ 800MHz
@@ -92,3 +93,4 @@ cat test.html
         {{list}}
     </body>
 </html>
+```
