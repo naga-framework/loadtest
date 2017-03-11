@@ -1,6 +1,5 @@
 -module(index).
 -export([index/3]).
--session(false).
 
 -default_action(index).
 -actions([index]).

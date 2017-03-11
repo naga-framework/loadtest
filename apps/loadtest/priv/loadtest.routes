@@ -1,15 +1,13 @@
 
 [
  { "/favicon.ico",cowboy_static,{priv_file,loadtest,"static/favicon.ico"}}
-,{ "/static/[...]",naga_static,{dir,"apps/cms/priv/static",[{mimetypes,cow_mimetypes,all}]}}
+,{ "/static/[...]",n2o_static,{dir,"apps/cms/priv/static",[{mimetypes,cow_mimetypes,all}]}}
 
 
 %% url cms admin backend
 %% ---------------------
 
-,{ "/hello",           [{app,loadtest},{ctrl,index}   ,{action,hello}],  []} 
-,{ "/nosession",       [{app,loadtest},{ctrl,session} ,{action,logout}], []} 
-,{ "/nosession/hello", [{app,loadtest},{ctrl,session} ,{action,iforgot}],[]} 
+,{ "/nosession",       [{app,loadtest},{ctrl,session} ,{action,index}], []} 
 ,{ "/",                [{app,loadtest},{ctrl,index}   ,{action,index}],  []}
 
 ].
