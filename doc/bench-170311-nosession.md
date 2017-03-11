@@ -1,3 +1,4 @@
+```bash
 using client/server on same computer, 
 AMD E1-2100 APU with Radeon(TM) HD Graphics
 FREQ 800MHz
@@ -27,3 +28,4 @@ FILE: /var/log/siege.log
 You can disable this annoying message by editing
 the .siegerc file in your home directory; change
 the directive 'show-logfile' to false.
+```
