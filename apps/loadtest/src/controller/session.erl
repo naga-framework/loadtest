@@ -1,4 +1,4 @@
--module(loadtest_session).
+-module(session).
 -export([index/3,hello/3]).
 -include_lib("n2o/include/wf.hrl").
 -include_lib("nitro/include/nitro.hrl").
@@ -11,7 +11,7 @@ index(<<"GET">>, _, _) ->
     random:seed(A,B,C),
     R = random:uniform(20),
     List = getList(R),
-    #dtl{file={loadtest,index,index,"html"}, bindings=[{body, body(List)}]}.
+    {ok, [{body, body(List)}]}.
 
 hello(<<"GET">>, _, _) ->
     #dtl{file={loadtest,index,hello,"html"}, bindings=[{message, "Hello world !!!"}]}.

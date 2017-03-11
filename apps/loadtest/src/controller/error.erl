@@ -1,5 +1,8 @@
--module(loadtest_error).
--export([event/1,'404'/3]).
+-module(error).
+-export(['404'/3]).
+-actions(['404']).
+-default_action('404').
+
 -include_lib("n2o/include/wf.hrl").
 -include_lib("nitro/include/nitro.hrl").
 

@@ -1,8 +1,16 @@
 <html>
 <head>
-<title>Loadtest</title>
+<title>{% block title %}Loadtest{% endblock %}</title>
 </head>
 <body>
-{{body}}
+{% block body %}
+{% if list %}
+  {% for l in list %}
+    -{{ l.val }}<br/>
+  {% endfor %}
+{% else %}
+  Nope
+{% endif %}
+{% endblock %}
 </body>
 </html>
